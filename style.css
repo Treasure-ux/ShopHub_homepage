@@ -11,10 +11,10 @@ header{
     align-items: center;
 }
 .logo i{
-    margin-left: 50px;
+    margin-left: 90px;
 }
 .logo h2{
-    margin-left: 50px;
+    margin-left: 90px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     
 }
@@ -37,7 +37,7 @@ nav ul li a {
     background-color:black;
     color:white;
     font-weight: bolder;
-    margin-right: 40px; 
+    margin-right: 100px; 
 }
 .cart button i{
     color: white;
@@ -90,10 +90,12 @@ nav ul li a {
 }
 .cards{
     display: flex;
-    justify-content: space-around;
+    gap: 50px;
+    align-items: center;
+    padding-left: 100px;
 }
 .cards .mobile, .cards .laptop, .cards .audio{
-    width: 300px;
+    width: 400px;
     height: 170px;
     border-radius: 14px;
     background-color: white;
