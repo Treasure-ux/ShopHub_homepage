@@ -8,7 +8,7 @@
     <title>Home</title>
 </head>
 <body>
-    <header>
+    <div class="header" id="header">
         <div class="logo">
             <i class="fa fa-shopping-cart" aria-hidden="true"></i>
             <h2>ShopHub</h2>
@@ -17,71 +17,147 @@
         <nav>
             <ul>
                 <li><a href="#">Home</a></li>
-                <li><a href="#">Products</a></li>
+                <li><a href="#container">Products</a></li>
                 <li><a href="#">Contact</a></li>   
             </ul>
         </nav>
         <div class="cart">
-            <button type="button"><i class="fa fa-shopping-cart" aria-hidden="true"></i>Cart(0)</button>
+            <button type="button"><i class="fa fa-shopping-cart" aria-hidden="true"></i>Cart</button>
         </div>
-    </header>
+    </div>
     <div class="hero">
         <h3>Welcome to ShopHub</h3>
         <p>Find great products at amazing prices</p>
         <button type="button">Shop Now</button>
     </div>
     
-    <div class="pro">
-        <h3 class="categories">Categories</h3>
-
-       <div class="cards">
-            <div class="mobile">
-                <i class="fa fa-mobile" aria-hidden="true"></i>
-                <p>Phones</p>
-           </div>
-           <div class="laptop">
-               <i class="fa fa-laptop" aria-hidden="true"></i>
-               <p>Laptops</p>        
-           </div>
-           <div class="audio">
-               <i class="fa fa-headphones" aria-hidden="true"></i>
-               <p>Audio</p>
-           </div>
-       </div>   
-    </div>
-    <div class="container">
+    
+    <div class="container" id="container">
         <h3>Our Products</h3>
-        <div class="products">
-            <div class="product-container">
-                <div class="product1"></div>
-                <h4>Wireless Headphones</h4>
-                <span>$79.99</span>
-                <button type="button">Add to Cart</button>
-
+        <div class="product-container">
+            <div class="product-card">
+                <img src="images/tomasz-gawlowski-YDZPdqv3FcA-unsplash.jpg" alt="headphone">
+                <h4>Premium Wireless Headphones</h4>
+                <h5>$299.99</h5>
+                <h6>In Stock</h6>
+                <p>High-quality noise-cancelling headphones with 30-hour battery life and premium sound quality.
+                </p>
+                <span>Electronics</span>
+                <button type="button"><i class="fa fa-shopping-cart" aria-hidden="true"></i>Add to Cart</button>
             </div>
-            <div class="product-container">
-                <div class="product2"></div>
-                <h4>Smart Watch</h4>
-                <span>$199.99</span>
-                <button type="button">Add to Cart</button>
+            <div class="product-card">
+                <img src="images/fatemeh-zakeri-L_6OdCI8jSA-unsplash.jpg">
+                <h4>Luxury Chronograph Watch</h4>
+                <h5>$899.99</h5>
+                <h6>In Stock</h6>
+                <p>Elegant timepiece with sapphire crystal and automatic movement. Perfect for any occasion.
+                </p>
+                <span>Fashion</span>
+                <button type="button"><i class="fa fa-shopping-cart" aria-hidden="true"></i>Add to Cart</button>
+            </div>
+            <div class="product-card">
+                <img src="images/ox-street-BWPqHZBhMVA-unsplash.jpg" alt="">
+                <h4>Designer Running Shoes</h4>
+                <h5>$159.99</h5>
+                <h6>In Stock</h6>
+                <p>Comfortable and stylish sneakers with advanced cushioning technology for all-day wear.
+                </p>
+                <span>Fashion</span>
+                <button type="button"><i class="fa fa-shopping-cart" aria-hidden="true"></i>Add to Cart</button>
+            </div>
+            <div class="product-card">
+                <img src="images/cyberbackpack-com-B_BVXEQsGog-unsplash.jpg" alt="">
+                <h4>Premium Leather Backpack</h4>
+                <h5>$189.99</h5>
+                <h6>In Stock</h6>
+                <p>Durable leather backpack with laptop compartment and multiple pockets for organization.
+                </p>
+                <span>Accessories</span>
+                <button type="button"><i class="fa fa-shopping-cart" aria-hidden="true"></i>Add to Cart</button>
+            </div>
+            <div class="product-card_phone">
+                <img src="images/igor-omilaev-lDWTfYhZ85w-unsplash.jpg" alt="">
+                <h4>iPhone Pro Max</h4>
+                <h5>$1199.99</h5>
+                <h6>Out of Stock</h6>
+                <p>Latest flagship smartphone with advanced camera system and powerful processor.
+                </p>
+                <span>Accessories</span>
+                <button type="button"><i class="fa fa-shopping-cart" aria-hidden="true"></i>Add to Cart</button>
+            </div>
+            <div class="product-card">
+                <img src="images/redowan-dhrubo-DkG6B4lfngI-unsplash.jpg" alt="sunglasses">
+                <h4>Classic Aviator Sunglasses</h4>
+                <h5>$149.99</h5>
+                <h6>In Stock</h6>
+                <p>Timeless style with UV protection and polarized lenses for optimal eye protection.
+                </p>
+                <span>Accessories</span>
+                <button type="button"><i class="fa fa-shopping-cart" aria-hidden="true"></i>Add to Cart</button>
+            </div>
+            <div class="product-card">
+                <img src="images/giorgio-trovato-8krX0HkXw8c-unsplash.jpg" alt="laptop">
+                <h4>Ultra-Thin Laptop</h4>
+                <h5>$1499.99</h5>
+                <h6>In Stock</h6>
+                <p>Powerful ultrabook with 14-inch display, 16GB RAM, and all-day battery life.
+                </p>
+                <span>Electronics</span>
+                <button type="button"><i class="fa fa-shopping-cart" aria-hidden="true"></i>Add to Cart</button>
+            </div>
+            <div class="product-card">
+                <img src="images/mateo-nCU4yq5xDEQ-unsplash.jpg" alt="">
+                <h4>Mechanical Gaming Keyboard</h4>
+                <h5>$179.99</h5>
+                <h6>In Stock</h6>
+                <p>RGB backlit mechanical keyboard with customizable keys and tactile switches.
+                </p>
+                <span>Electronics</span>
+                <button type="button"><i class="fa fa-shopping-cart" aria-hidden="true"></i>Add to Cart</button>
+            </div>
+            <div class="product-card">
+                <img src="images/william-thomas-ny6tO4ItOEY-unsplash.jpg" alt="camera">
+                <h4>Professional DSLR Camera</h4>
+                <h5>$2499.99</h5>
+                <h6 class="out">In Stock</h6>
+                <p>High-resolution camera with 4K video recording and advanced autofocus system.
+                </p>
+                <span>Electronics</span>
+                <button type="button"><i class="fa fa-shopping-cart" aria-hidden="true"></i>Add to Cart</button>
+            </div>
+            <div class="product-card">
+                <img src="images/jakub-zerdzicki-A_90G6Ta56A-unsplash.jpg" alt="">
+                <h4>Espresso Coffee Maker</h4>
+                <h5>$449.99</h5>
+                <h6>In Stock</h6>
+                <p>Professional-grade espresso machine with milk frother for café-quality drinks at home.
+                </p>
+                <span>Home & Kitchen</span>
+                <button type="button"><i class="fa fa-shopping-cart" aria-hidden="true"></i>Add to Cart</button>
+            </div>
+            <div class="product-card">
+                <img src="images/huzaifa-tariq-hYymUER1qnY-unsplash.jpg" alt="desk lamp">
+                <h4>Modern Desk Lamp</h4>
+                <h5>$79.99</h5>
+                <h6>In Stock</h6>
+                <p>Adjustable LED desk lamp with touch controls and multiple brightness levels.
+                </p>
+                <span>Home & Kitchen</span>
+                <button type="button"><i class="fa fa-shopping-cart" aria-hidden="true"></i>Add to Cart</button>
+            </div>
+            <div class="product-card">
+                <img src="images/elena-kloppenburg-erUC4fTtCuo-unsplash.jpg" alt="yoga mat">
+                <h4>Premium Yoga Mat</h4>
+                <h5>$59.99</h5>
+                <h6>In Stock</h6>
+                <p>Non-slip yoga mat with extra cushioning for comfortable workouts and meditation.
+                </p>
+                <span>Sports & Fitness</span>
+                <button type="button"><i class="fa fa-shopping-cart" aria-hidden="true"></i>Add to Cart</button>
+            </div>
+        
+        
 
-           </div>
-           <div class="product-container">
-               <div class="product3"></div>
-               <h4>Laptop Backpack</h4>
-               <span>$49.99</span>
-               <button type="button">Add to Cart</button>
-
-           </div>
-           <div class="product-container">
-               <div class="product4"></div>
-               <h4>Portable Speakers</h4>
-               <span>$59.99</span>
-               <button type="button">Add to Cart</button>
-
-           </div>
-        </div>
-    </div>
     <footer>
         <div class="links">
             <div class="about">
@@ -102,7 +178,7 @@
         </div>
         <hr>
         <div class="copy">
-            <p>&copy ShopHub. All rights reserved.</p>
+            <p>&copy 2026 ShopHub. All rights reserved.</p>
         </div>
         
     </footer>
